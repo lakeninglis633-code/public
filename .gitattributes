@@ -3,6 +3,7 @@
 *.data binary
 *.framework.js binary
 
-# Ensure they don't get treated as text
+# Ensure they don't get treated as text to prevent corruption
 *.wasm -text
 *.data -text
+*.framework.js -text
